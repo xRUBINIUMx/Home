@@ -1,3 +1,14 @@
+.visually-hidden{
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);/*IE6, IE7*/
+    clip: rect(1px 1px 1px 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
 html{
     box-sizing: border-box;
 }
@@ -27,7 +38,7 @@ body {
 
 .mastheader_section__wrapper {
     background-color: #5a5a56;
-    background: url("../img/header_bg.jpg") no-repeat;
+    background: url("pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -128,7 +139,7 @@ body {
 
 .our_fetures{
     background-color: #f6f5f3;
-    background: url('../img/section3_bg.jpg')
+    background: url('1653440978_1-celes-club-p-fon-dlya-nikneima-krasivie-1.jpg')
     no-repeat;
     padding-top: 130px 0 185px 0;
 }
@@ -173,4 +184,100 @@ body {
     font-size: 36px;
     color: #2394bc;
     margin-bottom: 20px;
+}
+
+/*----------------------------------*/
+
+.our_partners_wrapper{
+    background: url('src.jpg') no-repeat;
+    background-size: cover;
+}
+
+.our_partners{
+    padding: 110px 0 90px 0;
+}
+
+.our_parners__partners_list{
+    margin-bottom: 100px;
+}
+
+.our_partners__partner{
+    display: inline-block;
+    width: 270px;
+    text-align: center;
+    margin-right: 75px;
+}
+
+.our_partners__partner:last-child{
+    margin: 0;
+}
+
+.partner_avatar{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.partner_name{
+    margin: 0 0 10px 0;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.partner_position{
+    margin: 0 0 35px 0;
+    color: #000000;
+    font-weight: 100;
+}
+
+.partner_cite{
+    margin: 0;
+    color: white;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.logos_list__item{
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.my_featers_wrapper{
+    background-color: white;
+}
+
+.my_featers{
+    padding-top: 100px;
+}
+
+.my_featers_header{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.my_featers_descr{
+    width: 665px;
+    text-align: center;
+    margin: 0 auto 110px auto;
+}
+
+.my_featers__img_cont{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.my_featers__img{
+    display: block;
+}
+
+.my_featers__subtitle{
+    color: #ff6d6d;
+    text-transform: uppercase;
+}
+
+.my_featers__title{
+    margin: 0;
+    font-size: 40px;
+    color: #000;
+    font-weight: 300
 }
